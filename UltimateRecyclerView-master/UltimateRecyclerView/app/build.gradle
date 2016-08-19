@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion COMPILE_SDK
+    buildToolsVersion BUILD_TOOLS
+
+    defaultConfig {
+        applicationId "com.marshalchen.ultimaterecyclerview.demo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode app_demo_versionCode
+        versionName app_demo_versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile supportDependencies.appCompat
+    compile supportDependencies.annotation
+    compile supportDependencies.cardView
+
+
+    compile project(':ultimaterecyclerview')
+  //  compile 'com.marshalchen.ultimaterecyclerview:library:0.4.0'
+    compile 'com.google.android.gms:play-services:7.3.0'
+    debugCompile 'me.drakeet.library:crashwoodpecker:0.9.7'
+    releaseCompile 'me.drakeet.library:crashwoodpecker-do-nothing:0.9.7'
+
+
+    //used in the gridlayout
+    // compile 'com.hkm.loyalslider:library:1.4.5' exclude group: 'android.support.v13'
+
+}

@@ -1,0 +1,55 @@
+buildscript {
+    dependencies {
+        classpath 'com.alexvasilkov:android-sign-release:0.8.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.alexvasilkov.sign'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 11
+        versionName '2.1.1'
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+        }
+        release {
+            storeFile file("gesture-views-release-key.keystore")
+            keyAlias "release"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile project(':library')
+
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    compile 'com.alexvasilkov:android-commons:1.2.4'
+    compile 'com.alexvasilkov:events:0.4.0'
+
+    compile 'com.googlecode.flickrj-android:flickrj-android:2.1.0'
+    compile 'org.slf4j:slf4j-android:1.7.7' // Required by Flickr library
+}

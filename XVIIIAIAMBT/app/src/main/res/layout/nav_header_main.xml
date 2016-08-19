@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@mipmap/bgtest"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/nav_suptest"
+        android:layout_height="wrap_content"
+        android:tag="http://mnit.ac.in/event/aiambt"
+        android:onClick="openBrowser"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/_18th_aiambt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2-6 March 2016"
+        android:id="@+id/textView9"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="aiambt@mnit.ac.in"
+        android:onClick="openEmail"
+        android:text="aiambt@mnit.ac.in"
+        android:textColor="#000000" />
+
+</LinearLayout>

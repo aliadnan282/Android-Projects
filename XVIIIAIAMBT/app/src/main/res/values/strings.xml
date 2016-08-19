@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">XVIII AIAMBT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about">\n  All India Advani Memorial Basketball Tournament initiated in 1975 became one of the national level championship of the game in India from 1975 to 1996. Organized by the students of MREC Jaipur,the tournament was started in the memory of their late principal Prof. R.M.Advani. The spirit behind the tournament being the love and affection of professional students towards the Guru and the non profit nature of the event became a motivation for some of the best national level teams to ensure their participation in the tournament year after year. The tournament has always received massive coverage and praise by the national media for the quality of matches and the hospitality extended by the students to all teams and officials. Young engineering students despite of their tough curriculum would burn their midnight oil to ensure the excellence in every aspect of the organization. The Basketball Federation of India was glad to recognise AIAMBT Tournament since it\'s inception in 1975.</string>
+    <string name="action_settings">Credit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto, asperiores doloribus enim esse hic ipsum iure labore laborum libero neque quaerat, quos, repudiandae sapiente sint? Laudantium modi optio quo.</string>
+    <string name="patron">PATRON</string>
+    <string name="prof_i_k_bhat_n_director_mnit_jaipur">Prof. I.K. Bhat \n (Director,MNIT Jaipur)</string>
+    <string name="chairman">CHAIRMAN</string>
+    <string name="prof_m_k_shrimali_n_dean_student_welfare">Prof. M.K. Shrimali \n (Dean Student Welfare)</string>
+    <string name="convener">CONVENER</string>
+    <string name="dr_subir_debnath_919414447705">Dr. Subir Debnath +919414447705</string>
+    <string name="organising_secretary">ORGANISING SECRETARY</string>
+    <string name="veer">Veer Pratap Jaiswal +919887923377</string>
+    <string name="joint_organising_secretary">JOINT ORGANISING SECRETARY</string>
+    <string name="shubham_agarwal_91999_n_second_name_91999_n_shyamm_sunder_meena_919999">Shubham Agarwal +91999 \n second name +91999 \n Shyamm Sunder Meena +919999</string>
+    <string name="toastmsg">http://xxx.com</string>
+    <string name="_18th_aiambt">18<sup><small>th</small></sup> AIAMBT</string>
+    <string name="spalshwelcome">Welcome to 18<sup><small>th</small></sup> AIAMBT</string>
+</resources>

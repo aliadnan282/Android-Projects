@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Mobilization</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_my_agenda">My Agenda</string>
+    <string name="title_activity_track">Track</string>
+    <string name="title_activity_speakers">Speakers</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="navigation_my_agenda">My agenda</string>
+    <string name="navigation_venues">Tracks</string>
+    <string name="navigation_more">More</string>
+    <string name="navigation_speakers">Speakers</string>
+    <string name="navigation_sponsors">Sponsors</string>
+    <string name="navigation_about">About</string>
+
+    <string name="info_card_title">Info</string>
+    <string name="speakers_card_title">Speakers</string>
+
+    <string name="sponsor_type_diamond">DIAMOND SPONSOR</string>
+    <string name="sponsor_type_platinum">PLATINUM SPONSOR</string>
+    <string name="sponsor_type_gold">GOLD SPONSOR</string>
+    <string name="sponsor_type_silver">SILVER SPONSOR</string>
+    <string name="sponsor_type_copper">COPPER SPONSOR</string>
+    <string name="sponsor_type_other">OTHER SPONSOR</string>
+
+    <string name="talk_added_to_myagenda">Added to My Agenda</string>
+    <string name="talk_removed_to_myagenda">Removed from My Agenda</string>
+    <string name="talk_language_pl">Polish</string>
+    <string name="talk_language_en">English</string>
+    <string name="dialog_slot_conflict_title">Slot conflict</string>
+    <string name="dialog_slot_conflict_message_part1">"You have another talk in the same slot:"</string>
+    <string name="dialog_slot_conflict_message_part2">"Do you want to replace it?"</string>
+    <string name="dialog_slot_conflict_button_positive">Yes</string>
+    <string name="dialog_slot_conflict_button_negative">No</string>
+    <string name="text_empty_slot">Empty slot - browse sessions…</string>
+    <string name="about_author_label">Author</string>
+    <string name="about_author_name">Leszek Wach</string>
+    <string name="about_version_label">"Version "</string>
+    <string name="about_open_source_licences">Open Source Licences</string>
+</resources>

@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mikepenz.fastadapter.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme">
+        <!-- android:supportsRtl="true" -->
+        <activity
+            android:name=".SampleActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.TranslucentStatus">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SimpleItemListActivity"
+            android:label="@string/sample_simple_item_list" />
+        <activity
+            android:name=".SwipeListActivity"
+            android:label="@string/sample_swipe_list" />
+        <activity
+            android:name=".ImageListActivity"
+            android:label="@string/sample_image_list" />
+        <activity
+            android:name=".MultiselectSampleActivity"
+            android:label="@string/sample_multi_select" />
+        <activity
+            android:name=".ExpandableSampleActivity"
+            android:label="@string/sample_collapsible" />
+        <activity
+            android:name=".StickyHeaderSampleActivity"
+            android:label="@string/sample_sticky_header" />
+        <activity
+            android:name=".AdvancedSampleActivity"
+            android:label="@string/sample_advanced" />
+        <activity
+            android:name=".IconGridActivity"
+            android:label="@string/sample_icon_grid" />
+        <activity
+            android:name=".GenericItemActivity"
+            android:label="@string/sample_generic_item" />
+        <activity
+            android:name=".MultiTypeGenericItemActivity"
+            android:label="@string/sample_multi_generic_item" />
+		<activity
+			android:name=".CheckBoxSampleActivity"
+			android:label="@string/sample_checkbox_item" />
+		<activity
+			android:name=".RadioButtonSampleActivity"
+			android:label="@string/sample_radiobutton_item" />
+        <activity
+            android:name=".EndlessScrollListActivity"
+            android:label="@string/sample_endless_scroll_item" />
+        <activity
+            android:name=".SortActivity"
+            android:label="@string/sample_sort" />
+    </application>
+</manifest>

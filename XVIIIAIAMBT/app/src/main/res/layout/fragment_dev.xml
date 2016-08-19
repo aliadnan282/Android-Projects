@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context="net.skyleet.xviiiaiambt.dev">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="Developer"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:minHeight="88dp"
+        android:minWidth="88dp"
+        android:onClick="openBrowser"
+        android:src="@mipmap/devel"
+        android:tag="mailto:yadavsunil4796@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:fontFamily="cursive"
+        android:paddingTop="5dp"
+        android:text="Sunil Kumar Yadav"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"
+        android:paddingTop="2dp"
+        android:text="Android Application Developer"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="3dp"
+        android:paddingTop="2dp"
+        android:onClick="openEmail"
+        android:tag="yadavsunil4796@gmail.com"
+        android:text="yadavsunil4796@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000dd"
+        android:textColorLink="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:ellipsize="marquee"
+        android:paddingTop="7dp"
+        android:text="+91-9649810466"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+</LinearLayout>
